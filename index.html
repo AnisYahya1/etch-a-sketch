@@ -11,12 +11,18 @@
 <body>
     <div class="flex-container">
         <div class="title">Etch-A-Sketch</div>
+        <div class="pixel-changer"> 
+            <button onclick = "pixelChanger()"> Change Amount of Pixels</button> 
+        </div>
         <div class="grid-square"></div>
         <div class="buttons">
-            <button>Black</button>
-            <button>Gray</button>
-            <button>Erase</button>
-            <button>Reset</button>
+            <button onclick = "addingFunctionality('black')">Black</button>
+            <button onclick = "addingFunctionality('gray')">Gray</button>
+            <button onclick = "addingFunctionality('brown')">Brown</button>
+            <button onclick = "addingFunctionality('white')">Erase</button>
+            <button onclick = "addingFunctionality('rainbow')">Rainbow</button>
+
+            <button onclick = "reset()" >Reset</button>
         </div>
 
     </div>
